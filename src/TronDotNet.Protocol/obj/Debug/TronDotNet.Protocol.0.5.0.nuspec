@@ -13,16 +13,16 @@
     <repository url="https://github.com/miladsoft/TronNet" />
     <dependencies>
       <group targetFramework="net6.0">
-        <dependency id="Google.Api.CommonProtos" version="1.7.0" exclude="Build,Analyzers" />
-        <dependency id="Google.Protobuf" version="3.13.0" exclude="Build,Analyzers" />
-        <dependency id="Google.Protobuf.Tools" version="3.11.2" exclude="Build,Analyzers" />
-        <dependency id="Grpc" version="2.26.0" exclude="Build,Analyzers" />
-        <dependency id="Grpc.Net.ClientFactory" version="2.32.0" exclude="Build,Analyzers" />
-        <dependency id="NBitcoin.Secp256k1" version="1.0.3" exclude="Build,Analyzers" />
+        <dependency id="Google.Api.CommonProtos" version="2.7.0" exclude="Build,Analyzers" />
+        <dependency id="Google.Protobuf" version="3.21.12" exclude="Build,Analyzers" />
+        <dependency id="Google.Protobuf.Tools" version="3.21.12" exclude="Build,Analyzers" />
+        <dependency id="Grpc" version="2.46.6" exclude="Build,Analyzers" />
+        <dependency id="Grpc.Net.ClientFactory" version="2.51.0" exclude="Build,Analyzers" />
+        <dependency id="NBitcoin.Secp256k1" version="3.1.0" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>
   <files>
-    <file src="D:\Github\TronDotNet\src\TronDotNet.Protocol\bin\Debug\net6.0\TronDotNet.Protocol.dll" target="lib\net6.0\TronDotNet.Protocol.dll" />
+    <file src="E:\2013ProgramWorkSpace\MyVS2023\NetCoreWWTCLRobot\TronDotNet\src\TronDotNet.Protocol\bin\Debug\net6.0\TronDotNet.Protocol.dll" target="lib\net6.0\TronDotNet.Protocol.dll" />
   </files>
 </package>

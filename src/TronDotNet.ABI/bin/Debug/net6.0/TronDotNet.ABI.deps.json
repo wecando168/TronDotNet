@@ -14,55 +14,49 @@
           "TronDotNet.ABI.dll": {}
         }
       },
-      "Google.Api.CommonProtos/1.7.0": {
+      "Google.Api.CommonProtos/2.7.0": {
         "dependencies": {
-          "Google.Protobuf": "3.13.0"
+          "Google.Protobuf": "3.21.12"
         },
         "runtime": {
           "lib/netstandard2.0/Google.Api.CommonProtos.dll": {
-            "assemblyVersion": "1.7.0.0",
-            "fileVersion": "1.7.0.0"
+            "assemblyVersion": "2.7.0.0",
+            "fileVersion": "2.7.0.0"
           }
         }
       },
-      "Google.Protobuf/3.13.0": {
-        "dependencies": {
-          "System.Memory": "4.5.2",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
-        },
+      "Google.Protobuf/3.21.12": {
         "runtime": {
-          "lib/netstandard2.0/Google.Protobuf.dll": {
-            "assemblyVersion": "3.13.0.0",
-            "fileVersion": "3.13.0.0"
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.21.12.0",
+            "fileVersion": "3.21.12.0"
           }
         }
       },
-      "Google.Protobuf.Tools/3.11.2": {},
-      "NBitcoin.Secp256k1/1.0.3": {
+      "Google.Protobuf.Tools/3.21.12": {},
+      "NBitcoin.Secp256k1/3.1.0": {
         "runtime": {
-          "lib/netcoreapp2.1/NBitcoin.Secp256k1.dll": {
-            "assemblyVersion": "1.0.3.0",
-            "fileVersion": "1.0.3.0"
+          "lib/net6.0/NBitcoin.Secp256k1.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.1.0.0"
           }
         }
       },
-      "Portable.BouncyCastle/1.8.5.2": {
+      "Portable.BouncyCastle/1.9.0": {
         "runtime": {
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
-            "assemblyVersion": "1.8.5.0",
-            "fileVersion": "1.8.5.2"
+            "assemblyVersion": "1.9.0.0",
+            "fileVersion": "1.9.0.1"
           }
         }
       },
-      "System.Memory/4.5.2": {},
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {},
       "TronDotNet.Crypto/0.5.0": {
         "dependencies": {
-          "Google.Api.CommonProtos": "1.7.0",
-          "Google.Protobuf": "3.13.0",
-          "Google.Protobuf.Tools": "3.11.2",
-          "NBitcoin.Secp256k1": "1.0.3",
-          "Portable.BouncyCastle": "1.8.5.2"
+          "Google.Api.CommonProtos": "2.7.0",
+          "Google.Protobuf": "3.21.12",
+          "Google.Protobuf.Tools": "3.21.12",
+          "NBitcoin.Secp256k1": "3.1.0",
+          "Portable.BouncyCastle": "1.9.0"
         },
         "runtime": {
           "TronDotNet.Crypto.dll": {}
@@ -76,54 +70,40 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Google.Api.CommonProtos/1.7.0": {
+    "Google.Api.CommonProtos/2.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-RQG8nYUb+B1CKxXqtXBy7Kfj4r0c3mE4itQaFHuLzf7BXPeAOHPRKgU02kemBmuNMeJ+GSK+6D/RrFkjSFxvOA==",
-      "path": "google.api.commonprotos/1.7.0",
-      "hashPath": "google.api.commonprotos.1.7.0.nupkg.sha512"
+      "sha512": "sha512-Wpg4yRGJxX8FE3Ife+Gsj556MDHuki4KqVlZ1jOvvFX6yianI/hbScgvGUlteM9uu7vzbfCyKLc0Sv5/53M3hg==",
+      "path": "google.api.commonprotos/2.7.0",
+      "hashPath": "google.api.commonprotos.2.7.0.nupkg.sha512"
     },
-    "Google.Protobuf/3.13.0": {
+    "Google.Protobuf/3.21.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/6VgKCh0P59x/rYsBkCvkUanF0TeUYzwV9hzLIWgt23QRBaKHoxaaMkidEWhKibLR88c3PVCXyyrx9Xlb+Ne6w==",
-      "path": "google.protobuf/3.13.0",
-      "hashPath": "google.protobuf.3.13.0.nupkg.sha512"
+      "sha512": "sha512-1TXWxQy0PDDM1NC/LojlX4YVh7NhOvvyriCfERzeUVTp0XNXv8mo/AyWxDYCvMQ9xRZHUVdWoE4/B8ridP8Btg==",
+      "path": "google.protobuf/3.21.12",
+      "hashPath": "google.protobuf.3.21.12.nupkg.sha512"
     },
-    "Google.Protobuf.Tools/3.11.2": {
+    "Google.Protobuf.Tools/3.21.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fJzw2XR7j/B9Hd7oT+Wh1VKhVKJDdjVw5T06vUg2IE6J4Mv/reQ5nsJwB8S4giGRsFINefCs+lBAHBzYfr+BzQ==",
-      "path": "google.protobuf.tools/3.11.2",
-      "hashPath": "google.protobuf.tools.3.11.2.nupkg.sha512"
+      "sha512": "sha512-satJcvNdduOlSQs9I9juy+b9XH4EG2Gbu4VCVMIqLPG2axuYIVixX13KCwFvPmelxX8J99k5oXm7kxhWXufGSg==",
+      "path": "google.protobuf.tools/3.21.12",
+      "hashPath": "google.protobuf.tools.3.21.12.nupkg.sha512"
     },
-    "NBitcoin.Secp256k1/1.0.3": {
+    "NBitcoin.Secp256k1/3.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TCRUf7C44H/Hy42Ad1g0Dt83EfEH0l+4OuDhnWrzVsPBNiM6s6YRHnHYT+0dxGZKxD0CgdCTZ5f9Z2Ml1RRGbw==",
-      "path": "nbitcoin.secp256k1/1.0.3",
-      "hashPath": "nbitcoin.secp256k1.1.0.3.nupkg.sha512"
+      "sha512": "sha512-DVJbhT1plnBqPNnl5MNW1Aw5DCdfQ7MwlcL6PKcBIWPlQUO4T1FZRC4g2Axp9fd40eDKkyhq9MHlN9EeO09sGw==",
+      "path": "nbitcoin.secp256k1/3.1.0",
+      "hashPath": "nbitcoin.secp256k1.3.1.0.nupkg.sha512"
     },
-    "Portable.BouncyCastle/1.8.5.2": {
+    "Portable.BouncyCastle/1.9.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iLfdr+T33QrDpsvcKRbMVk0PnjqE4hcrbgc6IH+A1BdPAThZlMB9s5TtFANhVVtdS+0oN3yIivgXRPRET7zuZw==",
-      "path": "portable.bouncycastle/1.8.5.2",
-      "hashPath": "portable.bouncycastle.1.8.5.2.nupkg.sha512"
-    },
-    "System.Memory/4.5.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-fvq1GNmUFwbKv+aLVYYdgu/+gc8Nu9oFujOxIjPrsf+meis9JBzTPDL6aP/eeGOz9yPj6rRLUbOjKMpsMEWpNg==",
-      "path": "system.memory/4.5.2",
-      "hashPath": "system.memory.4.5.2.nupkg.sha512"
-    },
-    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
-      "path": "system.runtime.compilerservices.unsafe/4.5.2",
-      "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+      "sha512": "sha512-eZZBCABzVOek+id9Xy04HhmgykF0wZg9wpByzrWN7q8qEI0Qen9b7tfd7w8VA3dOeesumMG7C5ZPy0jk7PSRHw==",
+      "path": "portable.bouncycastle/1.9.0",
+      "hashPath": "portable.bouncycastle.1.9.0.nupkg.sha512"
     },
     "TronDotNet.Crypto/0.5.0": {
       "type": "project",

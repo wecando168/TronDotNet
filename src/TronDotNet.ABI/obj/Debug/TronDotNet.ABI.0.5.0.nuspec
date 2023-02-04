@@ -17,6 +17,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="D:\Github\TronDotNet\src\TronDotNet.ABI\bin\Debug\net6.0\TronDotNet.ABI.dll" target="lib\net6.0\TronDotNet.ABI.dll" />
+    <file src="E:\2013ProgramWorkSpace\MyVS2023\NetCoreWWTCLRobot\TronDotNet\src\TronDotNet.ABI\bin\Debug\net6.0\TronDotNet.ABI.dll" target="lib\net6.0\TronDotNet.ABI.dll" />
   </files>
 </package>

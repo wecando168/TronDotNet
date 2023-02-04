@@ -2,32 +2,36 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Google.Api.CommonProtos/1.7.0": {
+      "Google.Api.CommonProtos/2.7.0": {
         "type": "package",
         "dependencies": {
-          "Google.Protobuf": "3.8.0"
+          "Google.Protobuf": "[3.21.0, 4.0.0)"
         },
         "compile": {
-          "lib/netstandard2.0/Google.Api.CommonProtos.dll": {}
+          "lib/netstandard2.0/Google.Api.CommonProtos.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Google.Api.CommonProtos.dll": {}
+          "lib/netstandard2.0/Google.Api.CommonProtos.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
-      "Google.Protobuf/3.13.0": {
+      "Google.Protobuf/3.21.12": {
         "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.2",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
-        },
         "compile": {
-          "lib/netstandard2.0/Google.Protobuf.dll": {}
+          "lib/net5.0/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Google.Protobuf.dll": {}
+          "lib/net5.0/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
-      "Google.Protobuf.Tools/3.11.2": {
+      "Google.Protobuf.Tools/3.21.12": {
         "type": "package",
         "build": {
           "build/Google.Protobuf.Tools.targets": {}
@@ -36,78 +40,69 @@
           "buildCrossTargeting/Google.Protobuf.Tools.targets": {}
         }
       },
-      "NBitcoin.Secp256k1/1.0.3": {
+      "NBitcoin.Secp256k1/3.1.0": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp2.1/NBitcoin.Secp256k1.dll": {}
+          "lib/net6.0/NBitcoin.Secp256k1.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp2.1/NBitcoin.Secp256k1.dll": {}
+          "lib/net6.0/NBitcoin.Secp256k1.dll": {
+            "related": ".xml"
+          }
         }
       },
-      "Portable.BouncyCastle/1.8.5.2": {
+      "Portable.BouncyCastle/1.9.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
-        }
-      },
-      "System.Memory/4.5.2": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
-      },
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         }
       }
     }
   },
   "libraries": {
-    "Google.Api.CommonProtos/1.7.0": {
-      "sha512": "RQG8nYUb+B1CKxXqtXBy7Kfj4r0c3mE4itQaFHuLzf7BXPeAOHPRKgU02kemBmuNMeJ+GSK+6D/RrFkjSFxvOA==",
+    "Google.Api.CommonProtos/2.7.0": {
+      "sha512": "Wpg4yRGJxX8FE3Ife+Gsj556MDHuki4KqVlZ1jOvvFX6yianI/hbScgvGUlteM9uu7vzbfCyKLc0Sv5/53M3hg==",
       "type": "package",
-      "path": "google.api.commonprotos/1.7.0",
+      "path": "google.api.commonprotos/2.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "google.api.commonprotos.1.7.0.nupkg.sha512",
+        "NuGetIcon.png",
+        "google.api.commonprotos.2.7.0.nupkg.sha512",
         "google.api.commonprotos.nuspec",
-        "lib/net45/Google.Api.CommonProtos.dll",
-        "lib/net45/Google.Api.CommonProtos.pdb",
-        "lib/net45/Google.Api.CommonProtos.xml",
-        "lib/netstandard1.3/Google.Api.CommonProtos.dll",
-        "lib/netstandard1.3/Google.Api.CommonProtos.pdb",
-        "lib/netstandard1.3/Google.Api.CommonProtos.xml",
+        "lib/net461/Google.Api.CommonProtos.dll",
+        "lib/net461/Google.Api.CommonProtos.pdb",
+        "lib/net461/Google.Api.CommonProtos.xml",
         "lib/netstandard2.0/Google.Api.CommonProtos.dll",
         "lib/netstandard2.0/Google.Api.CommonProtos.pdb",
         "lib/netstandard2.0/Google.Api.CommonProtos.xml"
       ]
     },
-    "Google.Protobuf/3.13.0": {
-      "sha512": "/6VgKCh0P59x/rYsBkCvkUanF0TeUYzwV9hzLIWgt23QRBaKHoxaaMkidEWhKibLR88c3PVCXyyrx9Xlb+Ne6w==",
+    "Google.Protobuf/3.21.12": {
+      "sha512": "1TXWxQy0PDDM1NC/LojlX4YVh7NhOvvyriCfERzeUVTp0XNXv8mo/AyWxDYCvMQ9xRZHUVdWoE4/B8ridP8Btg==",
       "type": "package",
-      "path": "google.protobuf/3.13.0",
+      "path": "google.protobuf/3.21.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "google.protobuf.3.13.0.nupkg.sha512",
+        "google.protobuf.3.21.12.nupkg.sha512",
         "google.protobuf.nuspec",
         "lib/net45/Google.Protobuf.dll",
         "lib/net45/Google.Protobuf.pdb",
         "lib/net45/Google.Protobuf.xml",
+        "lib/net5.0/Google.Protobuf.dll",
+        "lib/net5.0/Google.Protobuf.pdb",
+        "lib/net5.0/Google.Protobuf.xml",
         "lib/netstandard1.1/Google.Protobuf.dll",
         "lib/netstandard1.1/Google.Protobuf.pdb",
         "lib/netstandard1.1/Google.Protobuf.xml",
@@ -116,17 +111,17 @@
         "lib/netstandard2.0/Google.Protobuf.xml"
       ]
     },
-    "Google.Protobuf.Tools/3.11.2": {
-      "sha512": "fJzw2XR7j/B9Hd7oT+Wh1VKhVKJDdjVw5T06vUg2IE6J4Mv/reQ5nsJwB8S4giGRsFINefCs+lBAHBzYfr+BzQ==",
+    "Google.Protobuf.Tools/3.21.12": {
+      "sha512": "satJcvNdduOlSQs9I9juy+b9XH4EG2Gbu4VCVMIqLPG2axuYIVixX13KCwFvPmelxX8J99k5oXm7kxhWXufGSg==",
       "type": "package",
-      "path": "google.protobuf.tools/3.11.2",
+      "path": "google.protobuf.tools/3.21.12",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/Google.Protobuf.Tools.targets",
         "buildCrossTargeting/Google.Protobuf.Tools.targets",
-        "google.protobuf.tools.3.11.2.nupkg.sha512",
+        "google.protobuf.tools.3.21.12.nupkg.sha512",
         "google.protobuf.tools.nuspec",
         "tools/google/protobuf/any.proto",
         "tools/google/protobuf/api.proto",
@@ -142,29 +137,30 @@
         "tools/linux_x64/protoc",
         "tools/linux_x86/protoc",
         "tools/macosx_x64/protoc",
-        "tools/macosx_x86/protoc",
         "tools/windows_x64/protoc.exe",
         "tools/windows_x86/protoc.exe"
       ]
     },
-    "NBitcoin.Secp256k1/1.0.3": {
-      "sha512": "TCRUf7C44H/Hy42Ad1g0Dt83EfEH0l+4OuDhnWrzVsPBNiM6s6YRHnHYT+0dxGZKxD0CgdCTZ5f9Z2Ml1RRGbw==",
+    "NBitcoin.Secp256k1/3.1.0": {
+      "sha512": "DVJbhT1plnBqPNnl5MNW1Aw5DCdfQ7MwlcL6PKcBIWPlQUO4T1FZRC4g2Axp9fd40eDKkyhq9MHlN9EeO09sGw==",
       "type": "package",
-      "path": "nbitcoin.secp256k1/1.0.3",
+      "path": "nbitcoin.secp256k1/3.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
-        "lib/netcoreapp2.1/NBitcoin.Secp256k1.dll",
+        "lib/net6.0/NBitcoin.Secp256k1.dll",
+        "lib/net6.0/NBitcoin.Secp256k1.xml",
         "lib/netstandard2.1/NBitcoin.Secp256k1.dll",
-        "nbitcoin.secp256k1.1.0.3.nupkg.sha512",
+        "lib/netstandard2.1/NBitcoin.Secp256k1.xml",
+        "nbitcoin.secp256k1.3.1.0.nupkg.sha512",
         "nbitcoin.secp256k1.nuspec"
       ]
     },
-    "Portable.BouncyCastle/1.8.5.2": {
-      "sha512": "iLfdr+T33QrDpsvcKRbMVk0PnjqE4hcrbgc6IH+A1BdPAThZlMB9s5TtFANhVVtdS+0oN3yIivgXRPRET7zuZw==",
+    "Portable.BouncyCastle/1.9.0": {
+      "sha512": "eZZBCABzVOek+id9Xy04HhmgykF0wZg9wpByzrWN7q8qEI0Qen9b7tfd7w8VA3dOeesumMG7C5ZPy0jk7PSRHw==",
       "type": "package",
-      "path": "portable.bouncycastle/1.8.5.2",
+      "path": "portable.bouncycastle/1.9.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -172,88 +168,35 @@
         "lib/net40/BouncyCastle.Crypto.xml",
         "lib/netstandard2.0/BouncyCastle.Crypto.dll",
         "lib/netstandard2.0/BouncyCastle.Crypto.xml",
-        "portable.bouncycastle.1.8.5.2.nupkg.sha512",
+        "portable.bouncycastle.1.9.0.nupkg.sha512",
         "portable.bouncycastle.nuspec"
-      ]
-    },
-    "System.Memory/4.5.2": {
-      "sha512": "fvq1GNmUFwbKv+aLVYYdgu/+gc8Nu9oFujOxIjPrsf+meis9JBzTPDL6aP/eeGOz9yPj6rRLUbOjKMpsMEWpNg==",
-      "type": "package",
-      "path": "system.memory/4.5.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netcoreapp2.1/_._",
-        "lib/netstandard1.1/System.Memory.dll",
-        "lib/netstandard1.1/System.Memory.xml",
-        "lib/netstandard2.0/System.Memory.dll",
-        "lib/netstandard2.0/System.Memory.xml",
-        "ref/netcoreapp2.1/_._",
-        "system.memory.4.5.2.nupkg.sha512",
-        "system.memory.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
-      "sha512": "wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
-      "type": "package",
-      "path": "system.runtime.compilerservices.unsafe/4.5.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
-        "system.runtime.compilerservices.unsafe.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Google.Api.CommonProtos >= 1.7.0",
-      "Google.Protobuf >= 3.13.0",
-      "Google.Protobuf.Tools >= 3.11.2",
-      "NBitcoin.Secp256k1 >= 1.0.3",
-      "Portable.BouncyCastle >= 1.8.5.2"
+      "Google.Api.CommonProtos >= 2.7.0",
+      "Google.Protobuf >= 3.21.12",
+      "Google.Protobuf.Tools >= 3.21.12",
+      "NBitcoin.Secp256k1 >= 3.1.0",
+      "Portable.BouncyCastle >= 1.9.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Milad\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "E:\\2013ProgramWorkSpace\\MyVS2023\\NuGet\\Packages": {}
   },
   "project": {
     "version": "0.5.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj",
+      "projectUniqueName": "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj",
       "projectName": "TronDotNet.Crypto",
-      "projectPath": "D:\\Github\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj",
-      "packagesPath": "C:\\Users\\Milad\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\TronDotNet\\src\\TronDotNet.Crypto\\obj\\",
+      "projectPath": "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj",
+      "packagesPath": "E:\\2013ProgramWorkSpace\\MyVS2023\\NuGet\\Packages",
+      "outputPath": "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.Crypto\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Milad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "E:\\2013ProgramWorkSpace\\NuGet.Config",
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -262,7 +205,7 @@
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -283,23 +226,23 @@
         "dependencies": {
           "Google.Api.CommonProtos": {
             "target": "Package",
-            "version": "[1.7.0, )"
+            "version": "[2.7.0, )"
           },
           "Google.Protobuf": {
             "target": "Package",
-            "version": "[3.13.0, )"
+            "version": "[3.21.12, )"
           },
           "Google.Protobuf.Tools": {
             "target": "Package",
-            "version": "[3.11.2, )"
+            "version": "[3.21.12, )"
           },
           "NBitcoin.Secp256k1": {
             "target": "Package",
-            "version": "[1.0.3, )"
+            "version": "[3.1.0, )"
           },
           "Portable.BouncyCastle": {
             "target": "Package",
-            "version": "[1.8.5.2, )"
+            "version": "[1.9.0, )"
           }
         },
         "imports": [
@@ -308,7 +251,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -317,7 +261,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

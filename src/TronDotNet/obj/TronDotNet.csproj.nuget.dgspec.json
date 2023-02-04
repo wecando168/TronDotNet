@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Github\\TronDotNet\\src\\TronDotNet\\TronDotNet.csproj": {}
+    "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet\\TronDotNet.csproj": {}
   },
   "projects": {
-    "d:\\Github\\TronDotNet\\src\\TronDotNet.ABI\\TronDotNet.ABI.csproj": {
+    "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.ABI\\TronDotNet.ABI.csproj": {
       "version": "0.5.0",
       "restore": {
-        "projectUniqueName": "d:\\Github\\TronDotNet\\src\\TronDotNet.ABI\\TronDotNet.ABI.csproj",
+        "projectUniqueName": "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.ABI\\TronDotNet.ABI.csproj",
         "projectName": "TronDotNet.ABI",
-        "projectPath": "d:\\Github\\TronDotNet\\src\\TronDotNet.ABI\\TronDotNet.ABI.csproj",
-        "packagesPath": "C:\\Users\\Milad\\.nuget\\packages\\",
-        "outputPath": "d:\\Github\\TronDotNet\\src\\TronDotNet.ABI\\obj\\",
+        "projectPath": "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.ABI\\TronDotNet.ABI.csproj",
+        "packagesPath": "E:\\2013ProgramWorkSpace\\MyVS2023\\NuGet\\Packages",
+        "outputPath": "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.ABI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Milad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "E:\\2013ProgramWorkSpace\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -28,15 +24,15 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "d:\\Github\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj": {
-                "projectPath": "d:\\Github\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj"
+              "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj": {
+                "projectPath": "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj"
               }
             }
           }
@@ -56,7 +52,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -65,26 +62,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "d:\\Github\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj": {
+    "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj": {
       "version": "0.5.0",
       "restore": {
-        "projectUniqueName": "d:\\Github\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj",
+        "projectUniqueName": "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj",
         "projectName": "TronDotNet.Crypto",
-        "projectPath": "d:\\Github\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj",
-        "packagesPath": "C:\\Users\\Milad\\.nuget\\packages\\",
-        "outputPath": "d:\\Github\\TronDotNet\\src\\TronDotNet.Crypto\\obj\\",
+        "projectPath": "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj",
+        "packagesPath": "E:\\2013ProgramWorkSpace\\MyVS2023\\NuGet\\Packages",
+        "outputPath": "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.Crypto\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Milad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "E:\\2013ProgramWorkSpace\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -93,7 +86,7 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -114,23 +107,23 @@
           "dependencies": {
             "Google.Api.CommonProtos": {
               "target": "Package",
-              "version": "[1.7.0, )"
+              "version": "[2.7.0, )"
             },
             "Google.Protobuf": {
               "target": "Package",
-              "version": "[3.13.0, )"
+              "version": "[3.21.12, )"
             },
             "Google.Protobuf.Tools": {
               "target": "Package",
-              "version": "[3.11.2, )"
+              "version": "[3.21.12, )"
             },
             "NBitcoin.Secp256k1": {
               "target": "Package",
-              "version": "[1.0.3, )"
+              "version": "[3.1.0, )"
             },
             "Portable.BouncyCastle": {
               "target": "Package",
-              "version": "[1.8.5.2, )"
+              "version": "[1.9.0, )"
             }
           },
           "imports": [
@@ -139,7 +132,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -148,26 +142,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "d:\\Github\\TronDotNet\\src\\TronDotNet.Protocol\\TronDotNet.Protocol.csproj": {
+    "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.Protocol\\TronDotNet.Protocol.csproj": {
       "version": "0.5.0",
       "restore": {
-        "projectUniqueName": "d:\\Github\\TronDotNet\\src\\TronDotNet.Protocol\\TronDotNet.Protocol.csproj",
+        "projectUniqueName": "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.Protocol\\TronDotNet.Protocol.csproj",
         "projectName": "TronDotNet.Protocol",
-        "projectPath": "d:\\Github\\TronDotNet\\src\\TronDotNet.Protocol\\TronDotNet.Protocol.csproj",
-        "packagesPath": "C:\\Users\\Milad\\.nuget\\packages\\",
-        "outputPath": "d:\\Github\\TronDotNet\\src\\TronDotNet.Protocol\\obj\\",
+        "projectPath": "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.Protocol\\TronDotNet.Protocol.csproj",
+        "packagesPath": "E:\\2013ProgramWorkSpace\\MyVS2023\\NuGet\\Packages",
+        "outputPath": "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.Protocol\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Milad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "E:\\2013ProgramWorkSpace\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -176,7 +166,7 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -197,33 +187,33 @@
           "dependencies": {
             "Google.Api.CommonProtos": {
               "target": "Package",
-              "version": "[1.7.0, )"
+              "version": "[2.7.0, )"
             },
             "Google.Protobuf": {
               "target": "Package",
-              "version": "[3.13.0, )"
+              "version": "[3.21.12, )"
             },
             "Google.Protobuf.Tools": {
               "target": "Package",
-              "version": "[3.11.2, )"
+              "version": "[3.21.12, )"
             },
             "Grpc": {
               "target": "Package",
-              "version": "[2.26.0, )"
+              "version": "[2.46.6, )"
             },
             "Grpc.Net.ClientFactory": {
               "target": "Package",
-              "version": "[2.32.0, )"
+              "version": "[2.51.0, )"
             },
             "Grpc.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.32.0, )"
+              "version": "[2.51.0, )"
             },
             "NBitcoin.Secp256k1": {
               "target": "Package",
-              "version": "[1.0.3, )"
+              "version": "[3.1.0, )"
             }
           },
           "imports": [
@@ -232,7 +222,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -241,26 +232,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "d:\\Github\\TronDotNet\\src\\TronDotNet\\TronDotNet.csproj": {
+    "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet\\TronDotNet.csproj": {
       "version": "0.5.0",
       "restore": {
-        "projectUniqueName": "d:\\Github\\TronDotNet\\src\\TronDotNet\\TronDotNet.csproj",
+        "projectUniqueName": "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet\\TronDotNet.csproj",
         "projectName": "TronDotNet",
-        "projectPath": "d:\\Github\\TronDotNet\\src\\TronDotNet\\TronDotNet.csproj",
-        "packagesPath": "C:\\Users\\Milad\\.nuget\\packages\\",
-        "outputPath": "d:\\Github\\TronDotNet\\src\\TronDotNet\\obj\\",
+        "projectPath": "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet\\TronDotNet.csproj",
+        "packagesPath": "E:\\2013ProgramWorkSpace\\MyVS2023\\NuGet\\Packages",
+        "outputPath": "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Milad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "E:\\2013ProgramWorkSpace\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -269,21 +256,21 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "d:\\Github\\TronDotNet\\src\\TronDotNet.ABI\\TronDotNet.ABI.csproj": {
-                "projectPath": "d:\\Github\\TronDotNet\\src\\TronDotNet.ABI\\TronDotNet.ABI.csproj"
+              "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.ABI\\TronDotNet.ABI.csproj": {
+                "projectPath": "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.ABI\\TronDotNet.ABI.csproj"
               },
-              "d:\\Github\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj": {
-                "projectPath": "d:\\Github\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj"
+              "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj": {
+                "projectPath": "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj"
               },
-              "d:\\Github\\TronDotNet\\src\\TronDotNet.Protocol\\TronDotNet.Protocol.csproj": {
-                "projectPath": "d:\\Github\\TronDotNet\\src\\TronDotNet.Protocol\\TronDotNet.Protocol.csproj"
+              "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.Protocol\\TronDotNet.Protocol.csproj": {
+                "projectPath": "E:\\2013ProgramWorkSpace\\MyVS2023\\NetCoreWWTCLRobot\\TronDotNet\\src\\TronDotNet.Protocol\\TronDotNet.Protocol.csproj"
               }
             }
           }
@@ -303,7 +290,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -312,7 +300,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

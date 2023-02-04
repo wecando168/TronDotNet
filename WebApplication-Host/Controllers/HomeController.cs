@@ -34,11 +34,11 @@ namespace WebApplication_Host.Controllers
 
             var client = new RestClient("https://api.trongrid.io/v1/accounts/TFyxcPwmSrpXLt7hWbBbdpNbhQBHxa43au/transactions/trc20?contract_address=TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t");
 
-            var request = new RestRequest(Method.GET);
+            var request = new RestRequest(Method.Get.ToString());
 
             request.AddHeader("Accept", "application/json");
 
-            IRestResponse response = client.Execute(request);
+            RestResponse response = client.Execute(request);
 
 
 

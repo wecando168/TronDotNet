@@ -9,3 +9,15 @@ D:\Github\TronDotNet\src\TronDotNet.Crypto\obj\Debug\net6.0\TronDotNet.Crypto.cs
 D:\Github\TronDotNet\src\TronDotNet.Crypto\obj\Debug\net6.0\TronDotNet.Crypto.dll
 D:\Github\TronDotNet\src\TronDotNet.Crypto\obj\Debug\net6.0\ref\TronDotNet.Crypto.dll
 D:\Github\TronDotNet\src\TronDotNet.Crypto\obj\Debug\net6.0\TronDotNet.Crypto.pdb
+E:\2013ProgramWorkSpace\MyVS2023\NetCoreWWTCLRobot\TronDotNet\src\TronDotNet.Crypto\bin\Debug\net6.0\TronDotNet.Crypto.deps.json
+E:\2013ProgramWorkSpace\MyVS2023\NetCoreWWTCLRobot\TronDotNet\src\TronDotNet.Crypto\bin\Debug\net6.0\TronDotNet.Crypto.dll
+E:\2013ProgramWorkSpace\MyVS2023\NetCoreWWTCLRobot\TronDotNet\src\TronDotNet.Crypto\bin\Debug\net6.0\TronDotNet.Crypto.pdb
+E:\2013ProgramWorkSpace\MyVS2023\NetCoreWWTCLRobot\TronDotNet\src\TronDotNet.Crypto\obj\Debug\net6.0\TronDotNet.Crypto.csproj.AssemblyReference.cache
+E:\2013ProgramWorkSpace\MyVS2023\NetCoreWWTCLRobot\TronDotNet\src\TronDotNet.Crypto\obj\Debug\net6.0\TronDotNet.Crypto.GeneratedMSBuildEditorConfig.editorconfig
+E:\2013ProgramWorkSpace\MyVS2023\NetCoreWWTCLRobot\TronDotNet\src\TronDotNet.Crypto\obj\Debug\net6.0\TronDotNet.Crypto.AssemblyInfoInputs.cache
+E:\2013ProgramWorkSpace\MyVS2023\NetCoreWWTCLRobot\TronDotNet\src\TronDotNet.Crypto\obj\Debug\net6.0\TronDotNet.Crypto.AssemblyInfo.cs
+E:\2013ProgramWorkSpace\MyVS2023\NetCoreWWTCLRobot\TronDotNet\src\TronDotNet.Crypto\obj\Debug\net6.0\TronDotNet.Crypto.csproj.CoreCompileInputs.cache
+E:\2013ProgramWorkSpace\MyVS2023\NetCoreWWTCLRobot\TronDotNet\src\TronDotNet.Crypto\obj\Debug\net6.0\TronDotNet.Crypto.dll
+E:\2013ProgramWorkSpace\MyVS2023\NetCoreWWTCLRobot\TronDotNet\src\TronDotNet.Crypto\obj\Debug\net6.0\refint\TronDotNet.Crypto.dll
+E:\2013ProgramWorkSpace\MyVS2023\NetCoreWWTCLRobot\TronDotNet\src\TronDotNet.Crypto\obj\Debug\net6.0\TronDotNet.Crypto.pdb
+E:\2013ProgramWorkSpace\MyVS2023\NetCoreWWTCLRobot\TronDotNet\src\TronDotNet.Crypto\obj\Debug\net6.0\ref\TronDotNet.Crypto.dll
